@@ -1,0 +1,6 @@
+module Pods_RicksFiends {
+  umbrella header "Pods-RicksFiends-umbrella.h"
+
+  export *
+  module * { export * }
+}

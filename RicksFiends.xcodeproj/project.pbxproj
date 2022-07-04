@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		129BEA3BAA82294919A0CECD /* libPods-RicksFiends.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 323241D6CF41888EA8D92580 /* libPods-RicksFiends.a */; };
 		F6BB955526A33D430092AC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB955426A33D430092AC2B /* AppDelegate.swift */; };
-		F6BB955726A33D430092AC2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB955626A33D430092AC2B /* SceneDelegate.swift */; };
 		F6BB955926A33D430092AC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB955826A33D430092AC2B /* ViewController.swift */; };
-		F6BB955C26A33D430092AC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BB955A26A33D430092AC2B /* Main.storyboard */; };
 		F6BB955E26A33D440092AC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BB955D26A33D440092AC2B /* Assets.xcassets */; };
 		F6BB956126A33D440092AC2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BB955F26A33D440092AC2B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		323241D6CF41888EA8D92580 /* libPods-RicksFiends.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RicksFiends.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC51ED95995FE52E7058E3D5 /* Pods-RicksFiends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RicksFiends.release.xcconfig"; path = "Target Support Files/Pods-RicksFiends/Pods-RicksFiends.release.xcconfig"; sourceTree = "<group>"; };
 		F6BB955126A33D430092AC2B /* RicksFiends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RicksFiends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BB955426A33D430092AC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6BB955626A33D430092AC2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F6BB955826A33D430092AC2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F6BB955B26A33D430092AC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6BB955D26A33D440092AC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6BB956026A33D440092AC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6BB956226A33D440092AC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9EDDC041D15E79F5AAE07EF /* Pods-RicksFiends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RicksFiends.debug.xcconfig"; path = "Target Support Files/Pods-RicksFiends/Pods-RicksFiends.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +31,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129BEA3BAA82294919A0CECD /* libPods-RicksFiends.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54045565170EBB4CB57FD5FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				323241D6CF41888EA8D92580 /* libPods-RicksFiends.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9CC0FA32008F65412289CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDDC041D15E79F5AAE07EF /* Pods-RicksFiends.debug.xcconfig */,
+				AC51ED95995FE52E7058E3D5 /* Pods-RicksFiends.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F6BB954826A33D430092AC2B = {
 			isa = PBXGroup;
 			children = (
 				F6BB955326A33D430092AC2B /* RicksFiends */,
 				F6BB955226A33D430092AC2B /* Products */,
+				DD9CC0FA32008F65412289CC /* Pods */,
+				54045565170EBB4CB57FD5FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				F6BB955426A33D430092AC2B /* AppDelegate.swift */,
-				F6BB955626A33D430092AC2B /* SceneDelegate.swift */,
 				F6BB955826A33D430092AC2B /* ViewController.swift */,
-				F6BB955A26A33D430092AC2B /* Main.storyboard */,
 				F6BB955D26A33D440092AC2B /* Assets.xcassets */,
 				F6BB955F26A33D440092AC2B /* LaunchScreen.storyboard */,
 				F6BB956226A33D440092AC2B /* Info.plist */,
@@ -74,6 +93,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6BB956526A33D440092AC2B /* Build configuration list for PBXNativeTarget "RicksFiends" */;
 			buildPhases = (
+				944B3B212DACE28B9F25F483 /* [CP] Check Pods Manifest.lock */,
 				F6BB954D26A33D430092AC2B /* Sources */,
 				F6BB954E26A33D430092AC2B /* Frameworks */,
 				F6BB954F26A33D430092AC2B /* Resources */,
@@ -126,11 +146,35 @@
 			files = (
 				F6BB956126A33D440092AC2B /* LaunchScreen.storyboard in Resources */,
 				F6BB955E26A33D440092AC2B /* Assets.xcassets in Resources */,
-				F6BB955C26A33D430092AC2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		944B3B212DACE28B9F25F483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RicksFiends-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6BB954D26A33D430092AC2B /* Sources */ = {
@@ -139,21 +183,12 @@
 			files = (
 				F6BB955926A33D430092AC2B /* ViewController.swift in Sources */,
 				F6BB955526A33D430092AC2B /* AppDelegate.swift in Sources */,
-				F6BB955726A33D430092AC2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F6BB955A26A33D430092AC2B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6BB955B26A33D430092AC2B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F6BB955F26A33D440092AC2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +318,7 @@
 		};
 		F6BB956626A33D440092AC2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EDDC041D15E79F5AAE07EF /* Pods-RicksFiends.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +338,7 @@
 		};
 		F6BB956726A33D440092AC2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC51ED95995FE52E7058E3D5 /* Pods-RicksFiends.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

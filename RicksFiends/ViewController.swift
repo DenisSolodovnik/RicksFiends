@@ -5,7 +5,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FiendsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

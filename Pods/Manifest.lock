@@ -1,0 +1,20 @@
+PODS:
+  - PureLayout (3.1.9)
+  - Swinject (2.8.1)
+
+DEPENDENCIES:
+  - PureLayout
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - PureLayout
+    - Swinject
+
+SPEC CHECKSUMS:
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
+  Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
+
+PODFILE CHECKSUM: cac0ef44ae31c6ba6b92fd2833fc0629e7867eea
+
+COCOAPODS: 1.11.2
