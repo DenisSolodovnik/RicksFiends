@@ -8,18 +8,68 @@
 
 /* Begin PBXBuildFile section */
 		129BEA3BAA82294919A0CECD /* libPods-RicksFiends.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 323241D6CF41888EA8D92580 /* libPods-RicksFiends.a */; };
+		F350DAB6288D4CDD00D2D348 /* TabBarAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DAB5288D4CDD00D2D348 /* TabBarAssembly.swift */; };
+		F350DAB9288D4D5400D2D348 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DAB8288D4D5400D2D348 /* TabBarViewController.swift */; };
+		F350DABC288D4ECC00D2D348 /* TabBarRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DABB288D4ECC00D2D348 /* TabBarRouterImpl.swift */; };
+		F350DABE288D4EDC00D2D348 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DABD288D4EDC00D2D348 /* TabBarRouter.swift */; };
+		F350DAC4288D512400D2D348 /* CharactersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DAC3288D512400D2D348 /* CharactersListViewController.swift */; };
+		F350DAC7288D514400D2D348 /* EpisodesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DAC6288D514400D2D348 /* EpisodesListViewController.swift */; };
+		F350DACA288D515B00D2D348 /* LocationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DAC9288D515B00D2D348 /* LocationsListViewController.swift */; };
+		F350DACD288D540200D2D348 /* TabBarModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DACC288D540200D2D348 /* TabBarModuleInput.swift */; };
+		F350DACF288D550600D2D348 /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DACE288D550600D2D348 /* TabBarPresenter.swift */; };
+		F350DAD2288D559600D2D348 /* TabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DAD1288D559600D2D348 /* TabBarInteractor.swift */; };
+		F350DAD4288D55D800D2D348 /* TabBarInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DAD3288D55D800D2D348 /* TabBarInteractorImpl.swift */; };
+		F350DAD6288D576400D2D348 /* TabBarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DAD5288D576400D2D348 /* TabBarViewInput.swift */; };
+		F350DADB288D598E00D2D348 /* LocationListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DADA288D598E00D2D348 /* LocationListAssembly.swift */; };
+		F350DADD288D59CF00D2D348 /* EpisodeListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DADC288D59CF00D2D348 /* EpisodeListAssembly.swift */; };
+		F350DADF288D5A0300D2D348 /* CharactersListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350DADE288D5A0300D2D348 /* CharactersListAssembly.swift */; };
+		F3C9F2C5288D2F5C001EE954 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3C9F2C7288D2F5C001EE954 /* Localizable.strings */; };
+		F3C9F2C9288D30CB001EE954 /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9F2C8288D30CB001EE954 /* ApplicationAssembly.swift */; };
+		F3C9F2CB288D3165001EE954 /* AppDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9F2CA288D3165001EE954 /* AppDelegateProxy.swift */; };
+		F3C9F2D2288D3B96001EE954 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9F2D1288D3B96001EE954 /* main.swift */; };
 		F6BB955526A33D430092AC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB955426A33D430092AC2B /* AppDelegate.swift */; };
-		F6BB955926A33D430092AC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB955826A33D430092AC2B /* ViewController.swift */; };
 		F6BB955E26A33D440092AC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BB955D26A33D440092AC2B /* Assets.xcassets */; };
 		F6BB956126A33D440092AC2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BB955F26A33D440092AC2B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		F3EEBC31288D3F2F00F4CF68 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = "com.apple.build-tasks.copy-plist-file";
+			fileType = text.plist;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXFileReference section */
 		323241D6CF41888EA8D92580 /* libPods-RicksFiends.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RicksFiends.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC51ED95995FE52E7058E3D5 /* Pods-RicksFiends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RicksFiends.release.xcconfig"; path = "Target Support Files/Pods-RicksFiends/Pods-RicksFiends.release.xcconfig"; sourceTree = "<group>"; };
+		F350DAB5288D4CDD00D2D348 /* TabBarAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAssembly.swift; sourceTree = "<group>"; };
+		F350DAB8288D4D5400D2D348 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F350DABB288D4ECC00D2D348 /* TabBarRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouterImpl.swift; sourceTree = "<group>"; };
+		F350DABD288D4EDC00D2D348 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		F350DAC3288D512400D2D348 /* CharactersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewController.swift; sourceTree = "<group>"; };
+		F350DAC6288D514400D2D348 /* EpisodesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesListViewController.swift; sourceTree = "<group>"; };
+		F350DAC9288D515B00D2D348 /* LocationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListViewController.swift; sourceTree = "<group>"; };
+		F350DACC288D540200D2D348 /* TabBarModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModuleInput.swift; sourceTree = "<group>"; };
+		F350DACE288D550600D2D348 /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
+		F350DAD1288D559600D2D348 /* TabBarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInteractor.swift; sourceTree = "<group>"; };
+		F350DAD3288D55D800D2D348 /* TabBarInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInteractorImpl.swift; sourceTree = "<group>"; };
+		F350DAD5288D576400D2D348 /* TabBarViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewInput.swift; sourceTree = "<group>"; };
+		F350DADA288D598E00D2D348 /* LocationListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListAssembly.swift; sourceTree = "<group>"; };
+		F350DADC288D59CF00D2D348 /* EpisodeListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListAssembly.swift; sourceTree = "<group>"; };
+		F350DADE288D5A0300D2D348 /* CharactersListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListAssembly.swift; sourceTree = "<group>"; };
+		F3C9F2C6288D2F5C001EE954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F3C9F2C8288D30CB001EE954 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		F3C9F2CA288D3165001EE954 /* AppDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateProxy.swift; sourceTree = "<group>"; };
+		F3C9F2D1288D3B96001EE954 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F6BB955126A33D430092AC2B /* RicksFiends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RicksFiends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BB955426A33D430092AC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6BB955826A33D430092AC2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6BB955D26A33D440092AC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6BB956026A33D440092AC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6BB956226A33D440092AC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,8 +102,195 @@
 				F9EDDC041D15E79F5AAE07EF /* Pods-RicksFiends.debug.xcconfig */,
 				AC51ED95995FE52E7058E3D5 /* Pods-RicksFiends.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F350DAB2288D4C8D00D2D348 /* UserCases */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAC1288D50E200D2D348 /* LocationsUserCase */,
+				F350DAC0288D50CC00D2D348 /* EpisodesUserCase */,
+				F350DABF288D50B600D2D348 /* CharactersUserCase */,
+				F350DAB3288D4CAE00D2D348 /* TabBarUserCase */,
+			);
+			path = UserCases;
+			sourceTree = "<group>";
+		};
+		F350DAB3288D4CAE00D2D348 /* TabBarUserCase */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAB4288D4CC300D2D348 /* Assembly */,
+				F350DAD0288D558000D2D348 /* TabBarInteractor */,
+				F350DACB288D53DF00D2D348 /* Presenter */,
+				F350DABA288D4EAF00D2D348 /* Router */,
+				F350DAB7288D4D1100D2D348 /* View */,
+			);
+			path = TabBarUserCase;
+			sourceTree = "<group>";
+		};
+		F350DAB4288D4CC300D2D348 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAB5288D4CDD00D2D348 /* TabBarAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		F350DAB7288D4D1100D2D348 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAD5288D576400D2D348 /* TabBarViewInput.swift */,
+				F350DAB8288D4D5400D2D348 /* TabBarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F350DABA288D4EAF00D2D348 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F350DABD288D4EDC00D2D348 /* TabBarRouter.swift */,
+				F350DABB288D4ECC00D2D348 /* TabBarRouterImpl.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F350DABF288D50B600D2D348 /* CharactersUserCase */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAD7288D594D00D2D348 /* Assembly */,
+				F350DAC2288D510A00D2D348 /* View */,
+			);
+			path = CharactersUserCase;
+			sourceTree = "<group>";
+		};
+		F350DAC0288D50CC00D2D348 /* EpisodesUserCase */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAD8288D595700D2D348 /* Assembly */,
+				F350DAC5288D513300D2D348 /* View */,
+			);
+			path = EpisodesUserCase;
+			sourceTree = "<group>";
+		};
+		F350DAC1288D50E200D2D348 /* LocationsUserCase */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAD9288D595C00D2D348 /* Assembly */,
+				F350DAC8288D514A00D2D348 /* View */,
+			);
+			path = LocationsUserCase;
+			sourceTree = "<group>";
+		};
+		F350DAC2288D510A00D2D348 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAC3288D512400D2D348 /* CharactersListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F350DAC5288D513300D2D348 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAC6288D514400D2D348 /* EpisodesListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F350DAC8288D514A00D2D348 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAC9288D515B00D2D348 /* LocationsListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F350DACB288D53DF00D2D348 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F350DACC288D540200D2D348 /* TabBarModuleInput.swift */,
+				F350DACE288D550600D2D348 /* TabBarPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F350DAD0288D558000D2D348 /* TabBarInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAD1288D559600D2D348 /* TabBarInteractor.swift */,
+				F350DAD3288D55D800D2D348 /* TabBarInteractorImpl.swift */,
+			);
+			path = TabBarInteractor;
+			sourceTree = "<group>";
+		};
+		F350DAD7288D594D00D2D348 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				F350DADE288D5A0300D2D348 /* CharactersListAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		F350DAD8288D595700D2D348 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				F350DADC288D59CF00D2D348 /* EpisodeListAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		F350DAD9288D595C00D2D348 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				F350DADA288D598E00D2D348 /* LocationListAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		F3C9F2CE288D3A74001EE954 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F3C9F2D3288D3C14001EE954 /* ApplicationLayer */,
+				F3C9F2D4288D3C1F001EE954 /* PresentationLayer */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F3C9F2CF288D3B26001EE954 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB955D26A33D440092AC2B /* Assets.xcassets */,
+				F3C9F2C7288D2F5C001EE954 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F3C9F2D0288D3B55001EE954 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB956226A33D440092AC2B /* Info.plist */,
+				F3C9F2D1288D3B96001EE954 /* main.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		F3C9F2D3288D3C14001EE954 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB955426A33D430092AC2B /* AppDelegate.swift */,
+				F3C9F2CA288D3165001EE954 /* AppDelegateProxy.swift */,
+				F3C9F2C8288D30CB001EE954 /* ApplicationAssembly.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		F3C9F2D4288D3C1F001EE954 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				F350DAB2288D4C8D00D2D348 /* UserCases */,
+				F6BB955F26A33D440092AC2B /* LaunchScreen.storyboard */,
+			);
+			path = PresentationLayer;
 			sourceTree = "<group>";
 		};
 		F6BB954826A33D430092AC2B = {
@@ -77,11 +314,9 @@
 		F6BB955326A33D430092AC2B /* RicksFiends */ = {
 			isa = PBXGroup;
 			children = (
-				F6BB955426A33D430092AC2B /* AppDelegate.swift */,
-				F6BB955826A33D430092AC2B /* ViewController.swift */,
-				F6BB955D26A33D440092AC2B /* Assets.xcassets */,
-				F6BB955F26A33D440092AC2B /* LaunchScreen.storyboard */,
-				F6BB956226A33D440092AC2B /* Info.plist */,
+				F3C9F2CE288D3A74001EE954 /* Sources */,
+				F3C9F2CF288D3B26001EE954 /* Resources */,
+				F3C9F2D0288D3B55001EE954 /* SupportFiles */,
 			);
 			path = RicksFiends;
 			sourceTree = "<group>";
@@ -99,6 +334,7 @@
 				F6BB954F26A33D430092AC2B /* Resources */,
 			);
 			buildRules = (
+				F3EEBC31288D3F2F00F4CF68 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -145,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6BB956126A33D440092AC2B /* LaunchScreen.storyboard in Resources */,
+				F3C9F2C5288D2F5C001EE954 /* Localizable.strings in Resources */,
 				F6BB955E26A33D440092AC2B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,14 +418,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6BB955926A33D430092AC2B /* ViewController.swift in Sources */,
+				F350DAD2288D559600D2D348 /* TabBarInteractor.swift in Sources */,
+				F3C9F2C9288D30CB001EE954 /* ApplicationAssembly.swift in Sources */,
+				F350DACF288D550600D2D348 /* TabBarPresenter.swift in Sources */,
+				F350DAB6288D4CDD00D2D348 /* TabBarAssembly.swift in Sources */,
+				F350DAC4288D512400D2D348 /* CharactersListViewController.swift in Sources */,
+				F350DADD288D59CF00D2D348 /* EpisodeListAssembly.swift in Sources */,
+				F350DABE288D4EDC00D2D348 /* TabBarRouter.swift in Sources */,
+				F350DACD288D540200D2D348 /* TabBarModuleInput.swift in Sources */,
+				F350DAD6288D576400D2D348 /* TabBarViewInput.swift in Sources */,
+				F350DABC288D4ECC00D2D348 /* TabBarRouterImpl.swift in Sources */,
 				F6BB955526A33D430092AC2B /* AppDelegate.swift in Sources */,
+				F3C9F2D2288D3B96001EE954 /* main.swift in Sources */,
+				F350DAB9288D4D5400D2D348 /* TabBarViewController.swift in Sources */,
+				F350DAC7288D514400D2D348 /* EpisodesListViewController.swift in Sources */,
+				F350DACA288D515B00D2D348 /* LocationsListViewController.swift in Sources */,
+				F350DADB288D598E00D2D348 /* LocationListAssembly.swift in Sources */,
+				F3C9F2CB288D3165001EE954 /* AppDelegateProxy.swift in Sources */,
+				F350DADF288D5A0300D2D348 /* CharactersListAssembly.swift in Sources */,
+				F350DAD4288D55D800D2D348 /* TabBarInteractorImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F3C9F2C7288D2F5C001EE954 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C9F2C6288D2F5C001EE954 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		F6BB955F26A33D440092AC2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -251,7 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -306,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -324,7 +586,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CA8RFTMHW;
-				INFOPLIST_FILE = RicksFiends/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RicksFiends/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +595,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.RicksFiends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -344,7 +607,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CA8RFTMHW;
-				INFOPLIST_FILE = RicksFiends/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RicksFiends/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,7 +616,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.RicksFiends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

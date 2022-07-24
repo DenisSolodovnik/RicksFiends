@@ -1,20 +1,32 @@
 PODS:
+  - L10n-swift (5.10.2):
+    - L10n-swift/Core (= 5.10.2)
+    - L10n-swift/Extension (= 5.10.2)
+    - L10n-swift/IBInspectable (= 5.10.2)
+  - L10n-swift/Core (5.10.2)
+  - L10n-swift/Extension (5.10.2):
+    - L10n-swift/Core
+  - L10n-swift/IBInspectable (5.10.2):
+    - L10n-swift/Core
   - PureLayout (3.1.9)
   - Swinject (2.8.1)
 
 DEPENDENCIES:
+  - L10n-swift (~> 5.10)
   - PureLayout
   - Swinject
 
 SPEC REPOS:
   trunk:
+    - L10n-swift
     - PureLayout
     - Swinject
 
 SPEC CHECKSUMS:
+  L10n-swift: 55773890db57d1efe367434751018ab6ceb058b0
   PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
   Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
 
-PODFILE CHECKSUM: cac0ef44ae31c6ba6b92fd2833fc0629e7867eea
+PODFILE CHECKSUM: 8040d1cb818b98d8cc5c8b4184d7dd71ec0678e1
 
 COCOAPODS: 1.11.2
