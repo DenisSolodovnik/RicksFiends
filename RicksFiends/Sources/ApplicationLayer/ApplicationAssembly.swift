@@ -12,10 +12,27 @@ final class ApplicationAssembly {
     private let appDelegate = AppDelegate()
 
     private let assembler = Assembler([
-        TabBarAssembly()
+        TabBarAssembly(),
+        CharacterListAssembly(),
+        EpisodesListAssembly(),
+        LocationsListAssembly()
     ])
 
-    func setupAppDelegate() {
+    var appDelegates: [AppDelegateHandler] {
+        [appDelegate]
+    }
+
+    init() {
+        handleAppDelegate()
+    }
+
+    private func handleAppDelegate() {
+        appDelegate.didFinishLaunchingHandler = {
+            self.setupAppDelegate()
+        }
+    }
+
+    private func setupAppDelegate() {
         appDelegate.rootViewController = assembler.resolver.resolve(TabBarViewController.self)!
     }
 }

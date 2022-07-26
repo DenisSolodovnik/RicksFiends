@@ -1,5 +1,5 @@
 //
-//  LocationListAssembly.swift
+//  EpisodesListAssembly.swift
 //  RicksFiends
 //
 //  Created by Денис Солодовник on 24.07.2022.
@@ -8,10 +8,10 @@
 import UIKit
 import Swinject
 
-final class LocationListAssembly: Assembly {
+final class EpisodesListAssembly: Assembly {
     func assemble(container: Container) {
-        container.register(LocationsListViewController.self) { _ in
-            LocationsListViewController()
+        container.register(EpisodesListViewController.self) { _ in
+            EpisodesListViewController()
         }.initCompleted { resolver, viewController in
         }.inObjectScope(.container)
     }

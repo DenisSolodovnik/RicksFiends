@@ -5,14 +5,18 @@
 
 import UIKit
 
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: AppDelegateHandler {
     var window: UIWindow?
     var rootViewController: UIViewController!
+
+    var didFinishLaunchingHandler: (() -> ())!
 
     func application(
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
+        didFinishLaunchingHandler()
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
